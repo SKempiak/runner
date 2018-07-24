@@ -61,8 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraController.cs" />
-    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\Resources\Block.cs" />
+    <Compile Include="Assets\Resources\CameraController.cs" />
+    <Compile Include="Assets\Resources\Obstacles.cs" />
+    <Compile Include="Assets\Resources\Player.cs" />
+    <Compile Include="Assets\Resources\wall.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/league/runner/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
