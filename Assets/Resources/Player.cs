@@ -15,9 +15,8 @@ public class Player : MonoBehaviour {
 	void FixedUpdate () {
         if (Input.GetKeyDown(KeyCode.Space)){
             rb.AddForce(new Vector3(0, jump, 0));
-        }
-        if(Input.GetKey(KeyCode.A)){
-            this.transform.position += new Vector3(-speed, 0, 0);
+        } if(Input.GetKey(KeyCode.A)){
+       this.transform.position += new Vector3(-speed, 0, 0);
         }
         if (Input.GetKey(KeyCode.D))
         {
